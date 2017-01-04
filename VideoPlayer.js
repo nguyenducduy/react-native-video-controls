@@ -867,7 +867,6 @@ export default class VideoPlayer extends Component {
                 style={[ styles.controls.column, styles.controls.vignette,
             ]}>
                 <View style={[
-                    styles.player.container,
                     styles.controls.seekbar
                 ]}>
                     { this.renderSeekbar() }
